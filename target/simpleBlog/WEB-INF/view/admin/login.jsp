@@ -63,26 +63,12 @@
     </p>
     <p style="position: relative;">
         <span class="p_logo"></span>
-        <input id="password1" class="ipt" type="password"  placeholder="请输入密码">
+        <input id="password" class="ipt" type="password"  placeholder="请输入密码">
     </p>
-    <p style="position: relative;">
-        <span class="p_logo"></span>
-        <input id="password2" class="ipt" type="password"  placeholder="请输入密码">
-    </p>
-    <p style="position: relative;">
-        <span class="p_logo"></span>
-        <input id="password3" class="ipt" type="password"  placeholder="请输入密码">
-    </p>
-    <p style="position: relative;">
-        <span class="p_logo"></span>
-        <input id="password4" class="ipt" type="password"  placeholder="请输入密码">
-    </p>
-
 
     <div style="height: 50px;line-height: 50px;margin-top: 30px;border-top: 1px solid #e7e7e7;">
         <p style="margin: 0px 35px 20px 45px;">
             <span style="float: right">
-               <a href="../register" style="color:#ccc;margin-right:10px;">注册</a>
                <a href="#" style="background: #008ead;padding: 7px 10px;border-radius: 4px;border: 1px solid #1a7598;color: #FFF;font-weight: bold;">Login</a>
            </span>
         </p>
@@ -90,8 +76,6 @@
 
 </div>
 
-<div style="position: fixed;bottom: 0px;text-align: center;width: 100%;">
-    Copyright ©2015 <a style="margin-left: 10px;color: #000000;text-decoration: underline" href="http://www.sevennight.cn">http://www.sevennight.cn</a>
-</div>
+
 </body>
 </html>

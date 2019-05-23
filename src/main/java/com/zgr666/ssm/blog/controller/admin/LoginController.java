@@ -14,9 +14,4 @@ public class LoginController {
     public String loginPage(){
         return "admin/login";
     }
-
-    @RequestMapping("/register")
-    public String errorPage(){
-        return "admin/register";
-    }
 }
