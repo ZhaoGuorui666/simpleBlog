@@ -10,4 +10,12 @@ public interface UserService {
      * @return User
      */
     User insertUser(User user);
+
+    /**
+     * 通过用户名得到密码
+     *
+     * @param userName
+     * @return password
+     */
+    String getPassByName(String userName);
 }

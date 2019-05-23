@@ -28,4 +28,14 @@
         ("root","123456")
     </insert>
 
+    <select id="getPassByName" parameterType="String" resultType="String">
+        select user_pass
+        from
+        user
+        <where>
+            user_name=#{userName}
+        </where>
+
+    </select>
+
 </mapper>

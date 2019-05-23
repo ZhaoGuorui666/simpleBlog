@@ -13,5 +13,20 @@ public interface UserMapper {
      */
     int insert(User user);
 
+    /**
+     * 通过用户名得到密码
+     *
+     * @param userName
+     * @return password
+     */
+    String getPassByName(String userName);
+
+
+    /**
+     * 测试sql语句是否正确
+     *
+     * @param user
+     * @return
+     */
     int testInsert(User user);
 }
