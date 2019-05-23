@@ -12,4 +12,6 @@ public interface UserMapper {
      * @return 影响的行数
      */
     int insert(User user);
+
+    int testInsert(User user);
 }

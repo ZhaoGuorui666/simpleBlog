@@ -59,23 +59,57 @@
 
     <p style="padding: 30px 0px 10px 0px;position: relative;">
         <span class="u_logo"></span>
-        <input class="ipt" type="text" placeholder="请输入用户名或邮箱">
+        <input class="ipt" type="text" id="user_login" placeholder="请输入用户名或邮箱">
     </p>
     <p style="position: relative;">
         <span class="p_logo"></span>
-        <input id="password" class="ipt" type="password"  placeholder="请输入密码">
+        <input id="password" class="ipt" type="password" id="user_pass" placeholder="请输入密码">
     </p>
 
     <div style="height: 50px;line-height: 50px;margin-top: 30px;border-top: 1px solid #e7e7e7;">
         <p style="margin: 0px 35px 20px 45px;">
             <span style="float: right">
-               <a href="#" style="background: #008ead;padding: 7px 10px;border-radius: 4px;border: 1px solid #1a7598;color: #FFF;font-weight: bold;">Login</a>
+               <a href="#" style="background: #008ead;padding: 7px 10px;border-radius: 4px;border: 1px solid #1a7598;color: #FFF;font-weight: bold;" id="submit-btn">Login</a>
            </span>
         </p>
     </div>
 
 </div>
+<script src="/js/jquery.min.js"></script>
+<script type="text/javascript">
 
+    <%--登录验证--%>
+    $("#submit-btn").click(function () {
+        var user = $("#user_login").val();
+        var password = $("#user_pass").val();
+        if(user=="") {
+            alert("用户名不可为空!");
+        } else if(password==""){
+            alert("密码不可为空!");
+        } else {
+            $.ajax({
+                async: false,//同步，待请求完毕后再执行后面的代码
+                type: "POST",
+                url: '/loginVerify',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                data: $("#loginForm").serialize(),
+                dataType: "json",
+                success: function (data) {
+                    if(data.code==0) {
+                        alert(data.msg);
+                    } else {
+                        window.location.href="/admin";
+
+                    }
+                },
+                error: function () {
+                    alert("数据获取失败")
+                }
+            })
+        }
+    })
+
+</script>
 
 </body>
 </html>

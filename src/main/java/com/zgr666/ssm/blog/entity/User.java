@@ -1,5 +1,8 @@
 package com.zgr666.ssm.blog.entity;
 
+import lombok.Data;
+
+@Data
 public class User {
     /**
      * 登陆姓名
@@ -36,63 +39,5 @@ public class User {
      */
     private String userLastLoginTime;
 
-    /**
-     * get & set方法
-     * @return
-     */
-    public String getUserName() {
-        return userName;
-    }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getUserPass() {
-        return userPass;
-    }
-
-    public void setUserPass(String userPass) {
-        this.userPass = userPass;
-    }
-
-    public String getUserNickname() {
-        return userNickname;
-    }
-
-    public void setUserNickname(String userNickname) {
-        this.userNickname = userNickname;
-    }
-
-    public String getUserEmail() {
-        return userEmail;
-    }
-
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
-    }
-
-    public String getUserLastLoginIp() {
-        return userLastLoginIp;
-    }
-
-    public void setUserLastLoginIp(String userLastLoginIp) {
-        this.userLastLoginIp = userLastLoginIp;
-    }
-
-    public String getUserRegisterTime() {
-        return userRegisterTime;
-    }
-
-    public void setUserRegisterTime(String userRegisterTime) {
-        this.userRegisterTime = userRegisterTime;
-    }
-
-    public String getUserLastLoginTime() {
-        return userLastLoginTime;
-    }
-
-    public void setUserLastLoginTime(String userLastLoginTime) {
-        this.userLastLoginTime = userLastLoginTime;
-    }
 }

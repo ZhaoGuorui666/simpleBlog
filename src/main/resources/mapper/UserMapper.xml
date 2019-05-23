@@ -12,13 +12,20 @@
     </resultMap>
 
     <insert id="insert" parameterType="com.zgr666.ssm.blog.entity.User">
-        insert  into user
+        insert into user
         (user_name, user_pass, user_nickname, user_email
         user_last_login_ip, user_register_time, user_last_login_time)
         values
         (#{userName,jdbcType=VARCHAR}, #{userPass,jdbcType=VARCHAR},
         #{userNickname,jdbcType=VARCHAR}, #{userEmail,jdbcType=VARCHAR} , #{userLastLoginIp,jdbcType=VARCHAR}, #{userRegisterTime,jdbcType=TIMESTAMP},
         #{userLastLoginTime,jdbcType=TIMESTAMP})
+    </insert>
+
+    <insert id="testInsert" parameterType="com.zgr666.ssm.blog.entity.User">
+        insert into user
+        (user_name, user_pass)
+        values
+        ("root","123456")
     </insert>
 
 </mapper>
