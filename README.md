@@ -8,14 +8,14 @@
 
 创建github项目
 
-#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.21 在17素材网下载素材
+#### 2019.5.21 在17素材网下载素材
 
 - http://www.17sucai.com/pins/33335.html
 - http://www.17sucai.com/pins/33367.html
 - http://www.17sucai.com/pins/8822.html
 - http://www.17sucai.com/pins/8545.html
 
-##### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)学习git提交流程 <http://www.bootcss.com/p/git-guide/>
+##### 学习git提交流程 <http://www.bootcss.com/p/git-guide/>
 
 1. git add *		//将改动添加到缓存区
 2. git commit -m "代码提交信息"             //提交改动,但是还没到远端仓库
@@ -46,4 +46,3 @@
   5. 设置(基本信息设置)
 
   
-
