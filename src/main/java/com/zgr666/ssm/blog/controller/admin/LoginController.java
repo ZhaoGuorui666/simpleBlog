@@ -1,6 +1,5 @@
 package com.zgr666.ssm.blog.controller.admin;
 
-import com.zgr666.ssm.blog.entity.User;
 import com.zgr666.ssm.blog.service.UserService;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -61,18 +60,6 @@ public class LoginController {
         return  result;
     }
 
-
     @RequestMapping("/admin")
     public String adminPage()   {return "admin/index";}
-
-    @RequestMapping("/test")
-    public String test(HttpServletRequest request, HttpServletResponse response){
-        User user = new User();
-        user.setUserEmail("397860751@qq.com");
-        user.setUserLastLoginIp(request.getRemoteAddr());
- //       userMapper.insert(user);
-        System.out.println("添加成功!!");
-
-        return "admin/login";
-    }
 }

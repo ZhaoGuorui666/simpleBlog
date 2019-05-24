@@ -7,26 +7,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d953f6-e54b-4040-9bba-958b6fbee3b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/member-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/theme1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/theme11.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/theme2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/theme273.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/theme3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/theme4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/theme5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/xadmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/aiwrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/member-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/18.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/19.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/24.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/25.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/26.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/27.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/28.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/31.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/33.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/34.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/36.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/37.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/38.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/39.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/40.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/41.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/42.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/43.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/44.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/45.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/46.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/47.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/48.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/49.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/51.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/52.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/53.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/54.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/55.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/56.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/57.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/58.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/59.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/60.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/61.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/62.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/63.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/65.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/66.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/67.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/68.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/69.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/70.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/71.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/images/face/9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/lib/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/layui/layui.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,62 +138,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="98" column="81" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="242">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/member-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="65" selection-start-column="65" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/xadmin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="132">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +189,8 @@
       <find>jackso</find>
       <find>logo</find>
       <find>.logo</find>
+      <find>lib/</find>
+      <find>1111111111111111</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -164,13 +231,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/UserServiceIml.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/login.jsp" />
         <option value="$PROJECT_DIR$/../素材/X-admin/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.html.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/member-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java" />
+        <option value="$PROJECT_DIR$/../素材/markdown编辑器/test_markdown.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp" />
       </list>
     </option>
   </component>
@@ -211,6 +280,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,25 +375,6 @@
               <item name="simpleBlog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zgr666" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simpleBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simpleBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simpleBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simpleBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -373,14 +425,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558660331935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558699725510" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -419,7 +469,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/admin" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -512,17 +562,22 @@
       <workItem from="1558572233947" duration="912000" />
       <workItem from="1558577115509" duration="3876000" />
       <workItem from="1558655619274" duration="4555000" />
+      <workItem from="1558661858673" duration="598000" />
+      <workItem from="1558677491654" duration="5177000" />
+      <workItem from="1558684778719" duration="1609000" />
+      <workItem from="1558695701768" duration="8000" />
+      <workItem from="1558695960609" duration="2270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23964000" />
+    <option name="totallyTimeSpent" value="33626000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3457249" visible="true" weight="0.26340482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3457249" visible="true" weight="0.25402144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -532,7 +587,7 @@
       <window_info id="Web" order="7" sideWeight="0.6542751" side_tool="true" weight="0.26340482" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20176731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27393225" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,14 +612,47 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3457249" visible="true" weight="0.24396783" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.6542751" side_tool="true" weight="0.26340482" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4329897" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298969" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3298969" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.zgr666.ssm.blog/entity/Category.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.zgr666.ssm.blog/entity/Notice.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.zgr666.ssm.blog/mapperXml/UserMapper.fxml" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -732,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/theme273.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -753,72 +834,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="100" column="52" selection-start-line="100" selection-start-column="52" selection-end-line="100" selection-end-column="52" />
+        <state relative-caret-position="22">
+          <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/xadmin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="585">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/member-list.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../素材/markdown编辑器/test_markdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/plugin/editor.md-master/src/editormd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="2248" column="10" selection-start-line="2248" selection-start-column="10" selection-end-line="2248" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="291">
+          <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
           <folding>
             <element signature="method#loginCheck#0;class#LoginController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="98" column="81" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="242">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/welcome1.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
+        <state relative-caret-position="1045">
+          <caret line="209" column="45" selection-start-line="209" selection-start-column="45" selection-end-line="209" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/member-list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" selection-start-column="65" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="108" />
+        <state relative-caret-position="132">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

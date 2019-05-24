@@ -34,15 +34,16 @@
 #### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.24 找博客前端代码
 
 * 博客前端 <https://fly.layui.com/store/layuiSimpleBlog/>
-
 * 修改博客后台代码
-
 * 思考博客后台功能
-
 * 1. 文章(全部文章,写文章)
   2. 分类(全部分类,添加分类)
   3. 标签(全部标签,添加标签)
-  4. 日志(操作日志)
-  5. 设置(基本信息设置)
+  4. 草稿(全部草稿)
+  5. 日志(操作日志)
+  6. 设置(基本信息设置)
+  7. 回收站(查看删除文章)
+* 添加了 editor.md的markdown编辑器
+* 完成了添加文章页面,做的还算可以,明天再完善
 
-  
+![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png>)

@@ -6,13 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class AdminController {
 
-    @RequestMapping("/welcome1.html")
+    @RequestMapping("/article_add.html")
     public String welcome1(){
-        return "admin/welcome1";
+        return "admin/article/article_add";
     }
 
-    @RequestMapping("/member-list.html")
-    public String memberList(){
-        return "admin/member-list";
-    }
+    @RequestMapping("/test")
+    public String test(){ return "admin/article/article_add";}
 }
