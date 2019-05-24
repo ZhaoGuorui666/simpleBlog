@@ -98,7 +98,7 @@
                     if(data.code==0) {
                         alert(data.msg);
                     } else {
-                        window.location.href="/error";
+                        window.location.href="/admin";
                     }
                 },
                 error: function () {

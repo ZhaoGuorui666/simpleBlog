@@ -62,6 +62,9 @@ public class LoginController {
     }
 
 
+    @RequestMapping("/admin")
+    public String adminPage()   {return "admin/index";}
+
     @RequestMapping("/test")
     public String test(HttpServletRequest request, HttpServletResponse response){
         User user = new User();
