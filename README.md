@@ -48,6 +48,8 @@
 
 ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png>)
 
-![](https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png)
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.25
 
-<img src="https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png" width="50%" height="50%" />
+* 添加类别的数据库.
+* 
+
