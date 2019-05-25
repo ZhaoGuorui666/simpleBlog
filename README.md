@@ -50,4 +50,4 @@
 
 ![](https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png)
 
-![](<img src="https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png" width="50%" height="50%" />)
+<img src="https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png" width="50%" height="50%" />
