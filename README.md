@@ -1,4 +1,4 @@
-#                                 ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-20634_960x540.png>)
+﻿#                                 ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-20634_960x540.png>)
 
 
 
@@ -46,4 +46,4 @@
 * 添加了 editor.md的markdown编辑器
 * 完成了添加文章页面,做的还算可以,明天再完善
 
-![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png>)
+![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/wallhaven-769261_960x540.png=600x>)
