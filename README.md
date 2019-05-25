@@ -51,5 +51,5 @@
 #### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.25
 
 * 添加类别的数据库.
-* 
+* 添加类别的页面
 
