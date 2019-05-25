@@ -107,14 +107,9 @@
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('分类列表','order-list.html')">
+                        <a onclick="xadmin.add_tab('分类列表','category_list.html')">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>分类列表</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('添加分类','order-list1.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>添加分类</cite></a>
                     </li>
                 </ul>
             </li>

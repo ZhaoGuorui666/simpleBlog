@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zgr666.ssm.blog.mapper.CategoryMapper">
+    <resultMap id="BaseResultMap" type="com.zgr666.ssm.blog.entity.Category">
+        <result column="category_id" property="CategoryId" jdbcType="INTEGER"/>
+        <result column="category_name" property="CategoryName" jdbcType="VARCHAR"/>
+        <result column="category_article_num" property="CategoryArticleNum" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="getAllCategory" resultType="com.zgr666.ssm.blog.entity.Category">
+        select *
+        from
+        category
+    </select>
+
+</mapper>
