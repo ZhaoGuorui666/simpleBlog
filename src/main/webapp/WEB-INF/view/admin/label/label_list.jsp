@@ -1,4 +1,4 @@
-<%@ page import="com.zgr666.ssm.blog.entity.Category" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: 18235
   Date: 2019/5/25
@@ -49,25 +49,56 @@
                             <th>操作</th></tr>
                         </thead>
                         <tbody>
-                        <c:forEach items="${CategoryList}" var="c" varStatus="st">
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="id" value="1"   lay-skin="primary">
+                            </td>
+                            <td>1</td>
+                            <td>小明</td>
+                            <td>男</td>
+                            <td class="td-manage">
+                                <a onclick="xadmin.open('修改分类','member-password.html',600,400)" title="修改分类" href="javascript:;">
+                                    <i class="layui-icon">&#xe631;</i>
+                                </a>
+                                <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                    <i class="layui-icon">&#xe640;</i>
+                                </a>
+                            </td>
+                        </tr>
+                        <c:forEach items="${ls}" var="c" varStatus="st">
                             <tr>
-
                                 <td>
-                                    <input type="checkbox" name="id" value="${c.categoryId}"   lay-skin="primary">
+                                    <input type="checkbox" name="id" value="${c.CategoryId}"   lay-skin="primary">
                                 </td>
-                                <td>${c.categoryId}</td>
-                                <td>${c.categoryName}</td>
-                                <td>${c.categoryArticleNum}</td>
+                                <td>${c.CategoryId}</td>
+                                <td>${c.CategoryName}</td>
+                                <td>${c.CategoryArticleNum}</td>
                                 <td class="td-manage">
-                                    <a onclick="xadmin.open('修改分类','category_update.html',600,200)" title="修改分类" href="javascript:;">
+                                    <a onclick="xadmin.open('修改分类','member-password.html',600,400)" title="修改分类" href="javascript:;">
                                         <i class="layui-icon">&#xe631;</i>
                                     </a>
-                                    <a title="删除" onclick="member_del(this,${c.categoryId})" href="javascript:;">
+                                    <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
                                         <i class="layui-icon">&#xe640;</i>
                                     </a>
                                 </td>
                             </tr>
                         </c:forEach>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="id" value="1"   lay-skin="primary">
+                            </td>
+                            <td>1</td>
+                            <td>小明</td>
+                            <td>男</td>
+                            <td class="td-manage">
+                                <a onclick="xadmin.open('修改分类','member-password.html',600,400)" title="修改分类" href="javascript:;">
+                                    <i class="layui-icon">&#xe631;</i>
+                                </a>
+                                <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                    <i class="layui-icon">&#xe640;</i>
+                                </a>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
@@ -121,24 +152,9 @@
     /*用户-删除*/
     function member_del(obj,id){
         layer.confirm('确认要删除吗？',function(index){
-            $.ajax({
-                async: false,//同步，待请求完毕后再执行后面的代码
-                type: "POST",
-                url: '/category_del/'+id,
-                contentType: "application/x-www-form-urlencoded; charset=utf-8",
-                dataType: "json",
-                success: function (data) {
-                    if(data.code==1) {
-                        layer.msg('已删除!',{icon:1,time:1000});
-                        $(obj).parents("tr").remove();
-                    } else {
-                        alert("删除失败!!!");
-                    }
-                },
-                error: function () {
-                    alert("数据获取失败")
-                }
-            })
+            //发异步删除数据
+            $(obj).parents("tr").remove();
+            layer.msg('已删除!',{icon:1,time:1000});
         });
     }
 

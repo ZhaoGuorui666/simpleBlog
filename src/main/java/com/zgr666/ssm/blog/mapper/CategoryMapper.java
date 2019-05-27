@@ -13,5 +13,5 @@ public interface CategoryMapper {
      */
     List<Category> getAllCategory();
 
-
+    Integer delById(Integer id);
 }

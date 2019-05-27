@@ -19,4 +19,27 @@ public class Category {
      */
     private String CategoryArticleNum;
 
+    public Integer getCategoryId() {
+        return CategoryId;
+    }
+
+    public void setCategoryId(Integer categoryId) {
+        CategoryId = categoryId;
+    }
+
+    public String getCategoryName() {
+        return CategoryName;
+    }
+
+    public void setCategoryName(String categoryName) {
+        CategoryName = categoryName;
+    }
+
+    public String getCategoryArticleNum() {
+        return CategoryArticleNum;
+    }
+
+    public void setCategoryArticleNum(String categoryArticleNum) {
+        CategoryArticleNum = categoryArticleNum;
+    }
 }

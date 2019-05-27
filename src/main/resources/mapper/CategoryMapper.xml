@@ -13,4 +13,10 @@
         category
     </select>
 
+    <delete id="delById" parameterType="java.lang.Integer">
+        delete from
+        category
+        where category_id = #{id}
+    </delete>
+
 </mapper>
