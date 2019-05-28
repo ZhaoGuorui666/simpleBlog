@@ -53,3 +53,16 @@
 * 添加类别的数据库.
 * 添加类别的页面
 
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.26
+
+* 后台模板莫名出问题,解决
+
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.27
+
+* 后台的类别页面,前后端连通.(大小写问题浪费了很多时间)
+
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.28
+
+* 添加登陆验证码
+* 添加主页的留言板(还没有写后端)
+* 学习了pagehelper的用法,为项目加上了分页功能

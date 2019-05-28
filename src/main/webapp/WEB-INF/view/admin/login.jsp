@@ -65,7 +65,11 @@
             <span class="p_logo"></span>
             <input name="password" class="ipt" type="password" id="user_pass" placeholder="请输入密码">
         </p>
-
+        <p><img src="/checkCode" border="0" style="padding: 10px;"/></p>
+        <p>
+            <span class="p_logo"></span>
+             <input name="checkcode" type="text" class="ipt" id="user_code" placeholder="请输入验证码">
+        </p>
         <div style="height: 50px;line-height: 50px;margin-top: 30px;border-top: 1px solid #e7e7e7;">
             <p style="margin: 0px 35px 20px 45px;">
             <span style="float: right">
@@ -82,10 +86,14 @@
     $("#submit-btn").click(function () {
         var user = $("#user_login").val();
         var password = $("#user_pass").val();
+        var code=$("#user_code").val();
+
         if(user=="") {
             alert("用户名不可为空!");
         } else if(password==""){
             alert("密码不可为空!");
+        } else if(code=""){
+            alert("验证码不可为空!");
         } else {
             $.ajax({
                 async: false,//同步，待请求完毕后再执行后面的代码
