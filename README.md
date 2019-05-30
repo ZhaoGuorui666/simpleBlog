@@ -66,3 +66,7 @@
 * 添加登陆验证码
 * 添加主页的留言板(还没有写后端)
 * 学习了pagehelper的用法,为项目加上了分页功能
+
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.5.29
+
+* 添加标签页面,完成curd
