@@ -29,9 +29,22 @@ public class CategoryController {
         return "admin/category/category_add";
     }
 
-    @RequestMapping("/category_update.html")
-    public String category_update(){
+    @RequestMapping(value = "/category_update.html/{id}")
+    public String category_update(@PathVariable("id")Integer id,HttpServletRequest request){
+        request.setAttribute("id",id);
         return "admin/category/category_update";
+    }
+
+    @RequestMapping("/category_list.html")
+    public ModelAndView category_list(HttpServletRequest request, @RequestParam(required = false,defaultValue = "1",value="pn")Integer pn){
+        PageHelper.startPage(pn,5);
+        ModelAndView mav = new ModelAndView();
+        List<Category> ls = categoryService.getAllCategory();
+
+        PageInfo<Category> pageInfo = new PageInfo<Category>(ls,5);
+        mav.addObject("pageInfo",pageInfo);
+        mav.setViewName("admin/category/category_list");
+        return mav;
     }
 
     @RequestMapping(value = "/category_del/{id}")
@@ -47,16 +60,38 @@ public class CategoryController {
         return result;
     }
 
-    @RequestMapping("/category_list.html")
-    public ModelAndView category_list(HttpServletRequest request, @RequestParam(required = false,defaultValue = "1",value="pn")Integer pn){
-        PageHelper.startPage(pn,5);
-        ModelAndView mav = new ModelAndView();
-        List<Category> ls = categoryService.getAllCategory();
+    @RequestMapping(value = "/category_add/{name}")
+    @ResponseBody
+    public String category_add(@PathVariable("name") String name){
+        Map<String,Object> map=new HashMap<String, Object>();
+        Category category = new Category();
+        category.setCategoryName(name);
+        category.setCategoryArticleNum(0);
 
-        PageInfo<Category> pageInfo = new PageInfo<Category>(ls,5);
-        System.out.println(pageInfo.getList());
-        mav.addObject("pageInfo",pageInfo);
-        mav.setViewName("admin/category/category_list");
-        return mav;
+        if(categoryService.addCategory(category)==1){
+            map.put("code",1);
+        }else{
+            map.put("code",0);
+        }
+        String result = new JSONObject(map).toString();
+
+        return result;
+    }
+
+    @RequestMapping(value = "/category_update")
+    @ResponseBody
+    public String category_update(@RequestParam("id")Integer id,@RequestParam("new_name")String new_name ){
+        Map<String,Object> map=new HashMap<String, Object>();
+
+        System.out.println(id+"         "+new_name);
+        if(categoryService.updateCategory(id,new_name)>0){
+            map.put("code",1);
+        }else{
+            map.put("code",0);
+        }
+        System.out.println(map);
+        String result = new JSONObject(map).toString();
+
+        return result;
     }
 }

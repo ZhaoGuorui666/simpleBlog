@@ -8,4 +8,8 @@ public interface CategoryService {
     List<Category> getAllCategory();
 
     Integer delById(Integer id);
+
+    Integer addCategory(Category category);
+
+    Integer updateCategory(Integer id,String new_name);
 }

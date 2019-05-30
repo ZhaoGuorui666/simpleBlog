@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.zgr666.ssm.blog.entity.Category" %><%--
   Created by IntelliJ IDEA.
   User: 18235
   Date: 2019/5/25
@@ -34,7 +34,7 @@
             <div class="layui-card">
                 <div class="layui-card-header">
                     <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-                    <button class="layui-btn" onclick="xadmin.open('添加用户','/category_add.html',600,400)"><i class="layui-icon"></i>添加</button>
+                    <button class="layui-btn" onclick="xadmin.open('添加标签','/label_add.html',600,200)"><i class="layui-icon"></i>添加</button>
                 </div>
                 <div class="layui-card-body layui-table-body layui-table-main">
                     <table class="layui-table layui-form">
@@ -44,73 +44,77 @@
                                 <input type="checkbox" lay-filter="checkall" name="" lay-skin="primary">
                             </th>
                             <th>ID</th>
-                            <th>类别名</th>
+                            <th>标签名</th>
                             <th>文章数</th>
                             <th>操作</th></tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="id" value="1"   lay-skin="primary">
-                            </td>
-                            <td>1</td>
-                            <td>小明</td>
-                            <td>男</td>
-                            <td class="td-manage">
-                                <a onclick="xadmin.open('修改分类','member-password.html',600,400)" title="修改分类" href="javascript:;">
-                                    <i class="layui-icon">&#xe631;</i>
-                                </a>
-                                <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
-                                    <i class="layui-icon">&#xe640;</i>
-                                </a>
-                            </td>
-                        </tr>
-                        <c:forEach items="${ls}" var="c" varStatus="st">
+                        <c:forEach items="${pageInfo.list}" var="c" varStatus="st">
                             <tr>
+
                                 <td>
-                                    <input type="checkbox" name="id" value="${c.CategoryId}"   lay-skin="primary">
+                                    <input type="checkbox" name="id" value="${c.labelId}"   lay-skin="primary">
                                 </td>
-                                <td>${c.CategoryId}</td>
-                                <td>${c.CategoryName}</td>
-                                <td>${c.CategoryArticleNum}</td>
+                                <td>${c.labelId}</td>
+                                <td>${c.labelName}</td>
+                                <td>${c.labelArticleNum}</td>
                                 <td class="td-manage">
-                                    <a onclick="xadmin.open('修改分类','member-password.html',600,400)" title="修改分类" href="javascript:;">
+                                    <a onclick="xadmin.open('修改分类','label_update.html/'+${c.labelId},600,200)" title="修改标签" href="javascript:;">
                                         <i class="layui-icon">&#xe631;</i>
                                     </a>
-                                    <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                    <a title="删除" onclick="member_del(this,${c.labelId})" href="javascript:;">
                                         <i class="layui-icon">&#xe640;</i>
                                     </a>
                                 </td>
                             </tr>
                         </c:forEach>
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="id" value="1"   lay-skin="primary">
-                            </td>
-                            <td>1</td>
-                            <td>小明</td>
-                            <td>男</td>
-                            <td class="td-manage">
-                                <a onclick="xadmin.open('修改分类','member-password.html',600,400)" title="修改分类" href="javascript:;">
-                                    <i class="layui-icon">&#xe631;</i>
-                                </a>
-                                <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
-                                    <i class="layui-icon">&#xe640;</i>
-                                </a>
-                            </td>
-                        </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="layui-card-body ">
                     <div class="page">
-                        <div>
-                            <a class="prev" href="">&lt;&lt;</a>
-                            <a class="num" href="">1</a>
-                            <span class="current">2</span>
-                            <a class="num" href="">3</a>
-                            <a class="num" href="">489</a>
-                            <a class="next" href="">&gt;&gt;</a>
+                        <div class="col-md-6">
+                            当前第 ${pageInfo.pageNum} 页.总共 ${pageInfo.pages} 页.一共 ${pageInfo.total} 条记录
+                        </div>
+                        <!--点击分页-->
+                        <div class="col-md-6">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+
+                                    <li><a href="${pageContext.request.contextPath}/label_list.html?pn=1">首页</a></li>
+
+                                    <!--上一页-->
+                                    <li>
+                                        <c:if test="${pageInfo.hasPreviousPage}">
+                                            <a href="${pageContext.request.contextPath}/label_list.html?pn=${pageInfo.pageNum-1}" aria-label="Previous">
+                                                <span aria-hidden="true">«</span>
+                                            </a>
+                                        </c:if>
+                                    </li>
+
+                                    <!--循环遍历连续显示的页面，若是当前页就高亮显示，并且没有链接-->
+                                    <c:forEach items="${pageInfo.navigatepageNums}" var="page_num">
+                                        <c:if test="${page_num == pageInfo.pageNum}">
+                                            <li class="active"><a href="#">${page_num}</a></li>
+                                        </c:if>
+                                        <c:if test="${page_num != pageInfo.pageNum}">
+                                            <li><a href="${pageContext.request.contextPath}/label_list.html?pn=${page_num}">${page_num}</a></li>
+                                        </c:if>
+                                    </c:forEach>
+
+                                    <!--下一页-->
+                                    <li>
+                                        <c:if test="${pageInfo.hasNextPage}">
+                                            <a href="${pageContext.request.contextPath}/label_list.html?pn=${pageInfo.pageNum+1}"
+                                               aria-label="Next">
+                                                <span aria-hidden="true">»</span>
+                                            </a>
+                                        </c:if>
+                                    </li>
+
+                                    <li><a href="${pageContext.request.contextPath}/label_list.html?pn=${pageInfo.pages}">尾页</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -152,9 +156,24 @@
     /*用户-删除*/
     function member_del(obj,id){
         layer.confirm('确认要删除吗？',function(index){
-            //发异步删除数据
-            $(obj).parents("tr").remove();
-            layer.msg('已删除!',{icon:1,time:1000});
+            $.ajax({
+                async: false,//同步，待请求完毕后再执行后面的代码
+                type: "POST",
+                url: '/label_del/'+id,
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if(data.code==1) {
+                        layer.msg('已删除!',{icon:1,time:1000});
+                        $(obj).parents("tr").remove();
+                    } else {
+                        alert("删除失败!!!");
+                    }
+                },
+                error: function () {
+                    alert("数据获取失败")
+                }
+            })
         });
     }
 

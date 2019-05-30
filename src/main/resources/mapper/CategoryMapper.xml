@@ -19,4 +19,20 @@
         where category_id = #{id}
     </delete>
 
+    <insert id="addCategory" parameterType="com.zgr666.ssm.blog.entity.Category">
+        insert into
+        category
+        (category_name,category_article_num)
+        values
+        (#{CategoryName},#{CategoryArticleNum})
+    </insert>
+
+    <update id="updateCategory">
+        update
+        category
+        <set>
+            category_name = #{1}
+        </set>
+        where category_id = #{0}
+    </update>
 </mapper>

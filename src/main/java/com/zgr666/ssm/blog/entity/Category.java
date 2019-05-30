@@ -17,7 +17,7 @@ public class Category {
     /**
      * 该类别下文章的数量
      */
-    private String CategoryArticleNum;
+    private Integer CategoryArticleNum;
 
     public Integer getCategoryId() {
         return CategoryId;
@@ -35,11 +35,11 @@ public class Category {
         CategoryName = categoryName;
     }
 
-    public String getCategoryArticleNum() {
+    public Integer getCategoryArticleNum() {
         return CategoryArticleNum;
     }
 
-    public void setCategoryArticleNum(String categoryArticleNum) {
+    public void setCategoryArticleNum(Integer categoryArticleNum) {
         CategoryArticleNum = categoryArticleNum;
     }
 }

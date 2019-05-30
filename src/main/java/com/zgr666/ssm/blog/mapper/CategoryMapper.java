@@ -13,5 +13,24 @@ public interface CategoryMapper {
      */
     List<Category> getAllCategory();
 
+    /**
+     *
+     * @param id
+     * @return 返回删除成功的个数
+     */
     Integer delById(Integer id);
+
+    /**
+     *
+     * @param category
+     * @return 添加成功的个数
+     */
+    Integer addCategory(Category category);
+
+    /**
+     *
+     * @param 更新id的类别名为 new_name
+     * @return 更新成功的个数
+     */
+    Integer updateCategory(Integer id,String new_name);
 }

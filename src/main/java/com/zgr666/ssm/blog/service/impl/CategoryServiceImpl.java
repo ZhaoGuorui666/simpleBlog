@@ -22,4 +22,14 @@ public class CategoryServiceImpl implements CategoryService {
     public Integer delById(Integer id) {
         return categoryMapper.delById(id);
     }
+
+    @Override
+    public Integer addCategory(Category category) {
+        return categoryMapper.addCategory(category);
+    }
+
+    @Override
+    public Integer updateCategory(Integer id,String new_name) {
+        return categoryMapper.updateCategory(id,new_name);
+    }
 }

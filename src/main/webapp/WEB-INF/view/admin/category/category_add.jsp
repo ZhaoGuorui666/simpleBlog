@@ -26,7 +26,6 @@
 <body>
 <div class="layui-fluid">
     <div class="layui-row">
-        <form class="layui-form">
             <div class="layui-form-item">
                 <label for="L_username" class="layui-form-label">
                     <span class="x-red">*</span>分类名</label>
@@ -35,15 +34,37 @@
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label"></label>
-                <button class="layui-btn" lay-filter="add" lay-submit="">增加</button></div>
-        </form>
+                <button class="layui-btn" id="add_button" onclick="addCategory()">增加</button></div>
     </div>
 </div>
-<script>var _hmt = _hmt || []; (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-})();</script>
+<script type="text/javascript">
+    <%--添加按钮点击之后添加到数据库操作--%>
+    function addCategory(){
+        var add_id = $("#L_username").val();
+
+        if(add_id==""){
+            alert("添加的姓名不能为空!!");
+        }else{
+            $.ajax({
+                async: false,//同步，待请求完毕后再执行后面的代码
+                type: "POST",
+                url: '/category_add/'+add_id,
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if(data.code==1) {
+                        layer.msg('添加成功',{icon:1,time:1000});
+                    } else {
+                        layer.msg('添加失败',{icon:1,time:1000});
+                    }
+                },
+                error: function () {
+                    alert("数据获取失败")
+                }
+            })
+        }
+    }
+</script>
 </body>
+
 </html>

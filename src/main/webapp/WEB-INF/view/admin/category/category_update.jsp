@@ -36,9 +36,40 @@
                     <span class="x-red">*</span>输入修改后的类别名</div></div>
             <div class="layui-form-item">
                 <label  class="layui-form-label"></label>
-                <button class="layui-btn" lay-filter="add" lay-submit="">确认修改</button></div>
+                <button class="layui-btn" onclick="updateCategory()">确认修改</button></div>
         </form>
     </div>
 </div>
+<script type="text/javascript">
+    <%--添加按钮点击之后添加到数据库操作--%>
+    function updateCategory(){
+        var update_name = $("#L_email").val();
+        if(update_name==""){
+            alert("修改的名字不能为空!!");
+        }else{
+            $.ajax({
+                async: false,//同步，待请求完毕后再执行后面的代码
+                type: "POST",
+                url: '/category_update',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                data: {
+                    "id":${id},
+                    "new_name":update_name
+                },
+                dataType: "json",
+                success: function (data) {
+                    if(data.code==1) {
+                        layer.msg('添加成功',{icon:1,time:3000});
+                    } else {
+                        layer.msg('添加失败',{icon:1,time:1000});
+                    }
+                },
+                error: function () {
+                    alert("数据获取失败")
+                }
+            })
+        }
+    }
+</script>
 </body>
 </html>

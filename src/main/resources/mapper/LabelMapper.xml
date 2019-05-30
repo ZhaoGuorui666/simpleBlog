@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zgr666.ssm.blog.mapper.LabelMapper">
+    <resultMap id="BaseResultMap" type="com.zgr666.ssm.blog.entity.Label">
+        <result column="label_id" property="LabelId" jdbcType="INTEGER"/>
+        <result column="label_name" property="LabelName" jdbcType="VARCHAR"/>
+        <result column="label_article_num" property="LabelArticleNum" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="getAllLabel" resultType="com.zgr666.ssm.blog.entity.Label">
+        select *
+        from
+        label
+    </select>
+
+    <delete id="delById" parameterType="java.lang.Integer">
+        delete from
+        label
+        where label_id = #{id}
+    </delete>
+
+    <insert id="addLabel" parameterType="com.zgr666.ssm.blog.entity.Label">
+        insert into
+        label
+        (label_name,label_article_num)
+        values
+        (#{LabelName},#{LabelArticleNum})
+    </insert>
+
+    <update id="updateLabel">
+        update
+        label
+        <set>
+            label_name = #{1}
+        </set>
+        where label_id = #{0}
+    </update>
+</mapper>

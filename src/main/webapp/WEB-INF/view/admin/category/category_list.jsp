@@ -34,7 +34,7 @@
             <div class="layui-card">
                 <div class="layui-card-header">
                     <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-                    <button class="layui-btn" onclick="xadmin.open('添加用户','/category_add.html',600,400)"><i class="layui-icon"></i>添加</button>
+                    <button class="layui-btn" onclick="xadmin.open('添加用户','/category_add.html',600,200)"><i class="layui-icon"></i>添加</button>
                 </div>
                 <div class="layui-card-body layui-table-body layui-table-main">
                     <table class="layui-table layui-form">
@@ -59,7 +59,7 @@
                                 <td>${c.categoryName}</td>
                                 <td>${c.categoryArticleNum}</td>
                                 <td class="td-manage">
-                                    <a onclick="xadmin.open('修改分类','category_update.html',600,200)" title="修改分类" href="javascript:;">
+                                    <a onclick="xadmin.open('修改分类','category_update.html/'+${c.categoryId},600,200)" title="修改分类" href="javascript:;">
                                         <i class="layui-icon">&#xe631;</i>
                                     </a>
                                     <a title="删除" onclick="member_del(this,${c.categoryId})" href="javascript:;">
@@ -81,12 +81,12 @@
                             <nav aria-label="Page navigation">
                                 <ul class="pagination">
 
-                                    <li><a href="${pageContext.request.contextPath}/emps?pn=1">首页</a></li>
+                                    <li><a href="${pageContext.request.contextPath}/category_list.html?pn=1">首页</a></li>
 
                                     <!--上一页-->
                                     <li>
                                         <c:if test="${pageInfo.hasPreviousPage}">
-                                            <a href="${pageContext.request.contextPath}/emps?pn=${pageInfo.pageNum-1}" aria-label="Previous">
+                                            <a href="${pageContext.request.contextPath}/category_list.html?pn=${pageInfo.pageNum-1}" aria-label="Previous">
                                                 <span aria-hidden="true">«</span>
                                             </a>
                                         </c:if>
