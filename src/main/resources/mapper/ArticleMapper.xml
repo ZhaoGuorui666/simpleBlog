@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zgr666.ssm.blog.mapper.ArticleMapper">
+    <resultMap id="BaseResultMap" type="com.zgr666.ssm.blog.entity.Article">
+        <result column="article_id" property="ArticleId" jdbcType="INTEGER"/>
+        <result column="article_title" property="ArticleTitle" jdbcType="VARCHAR"/>
+        <result column="article_content" property="ArticleContent" jdbcType="LONGVARCHAR"/>
+        <result column="article_view_count" property="ArticleViewCount" jdbcType="INTEGER"/>
+        <result column="article_update_time" property="ArticleUpdateTime" jdbcType="TIMESTAMP"/>
+        <result column="article_create_time" property="ArticleCreateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <insert id="addCategory" parameterType="com.zgr666.ssm.blog.entity.Article">
+        insert into
+        article
+        (article_id,article_title,article_content,article_view_count,article_update_time,article_create_time)
+        values
+        (#{ArticleId},#{ArticleTitle},#{ArticleContent},
+        #{ArticleViewCount},#{ArticleUpdateTime},#{ArticleCreateTime})
+    </insert>
+
+</mapper>

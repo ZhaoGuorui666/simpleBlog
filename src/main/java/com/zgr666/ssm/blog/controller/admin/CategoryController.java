@@ -43,6 +43,7 @@ public class CategoryController {
 
         PageInfo<Category> pageInfo = new PageInfo<Category>(ls,5);
         mav.addObject("pageInfo",pageInfo);
+
         mav.setViewName("admin/category/category_list");
         return mav;
     }

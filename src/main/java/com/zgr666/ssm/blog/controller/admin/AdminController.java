@@ -7,10 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class AdminController {
 
-    @RequestMapping("/article_add.html")
-    public String welcome1(){
-        return "admin/article/article_add";
-    }
+
 
     @RequestMapping("/test")
     public ModelAndView test(){

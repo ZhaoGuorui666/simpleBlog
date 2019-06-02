@@ -10,14 +10,29 @@
 <head>
     <title></title>
     <%--markdown+jqery+bootstrap--%>
-    <link rel="stylesheet" href="plugin/editor.md-master/css/editormd.css" />
+    <link rel="stylesheet" href="lib/editor.md-master/css/editormd.css" />
+    <link rel="stylesheet" href="lib/layui/css/layui.css" />
     <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="plugin/editor.md-master/editormd.min.js"></script>
     <link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
     <script src="http://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+
+    <%--复选框美化--%>
+        <link rel="stylesheet" href="css/jquery.richUI.min.css" />
+        <script type="text/javascript" src="js/jquery.richUI.min.js"></script>
+        <script type="text/javascript" src="js/jquery.browser.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            //单选
+            /*
+            * selected: 默认选中值
+            */
+            $("input[name='status']").richradio();
+        });
+    </script>
 </head>
 <body>
-<form action="#">
+<form action="#" id="articleForm">
     <div class="col-xs-4">
         <input type="text" class="form-control" placeholder="输入文章标题" style="margin: 10px">
         <input type="text" class="form-control" placeholder="输入类别" style="margin: 10px">
@@ -32,7 +47,12 @@
         <%--html窗口 class = editormd-html-textarea --%>
         <textarea id="window_html" class="window_html" style="display:none;"></textarea>
     </div>
-    <input type="button" value="提交文章" style="margin: 10px">
+    <div class="col-xs-4">
+        <input name="status" value="1" type="radio" lab="发布" style="margin: 10px" />
+        <input name="status" value="2" type="radio" lab="草稿" style="margin: 10px" />
+    </div>
+    <br>
+    <input type="button" id="button" class="layui-btn layui-btn-lg layui-btn-radius layui-btn-normal" value="提交文章" style="left: 50%;">
 </form>
 
 <script type="text/javascript">
@@ -43,17 +63,36 @@
             path   : "plugin/editor.md-master/lib/",
             saveHTMLToTextarea : true
         });
-
-        // testEditor.getMarkdown();       // 获取 Markdown 源码
-        // testEditor.getHTML();           // 获取 Textarea 保存的 HTML 源码
-        // testEditor.getPreviewedHTML();  // 获取预览窗口里的 HTML，在开启 watch 且没有开启 saveHTMLToTextarea 时使用
-
     });
     $("#button").click(function () {
+        var status = $('input:radio:checked').val();
+        alert(test);
         var text = $('.window_html').val();
         alert(text);
         var text1 = $('.editormd-html-textarea').val();
         alert(text1);
+
+        if(status == '1'){
+            alert(1111);
+            $.ajax({
+                async: false,//同步，待请求完毕后再执行后面的代码
+                type: "POST",
+                url: '/article_add',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                data: $("#articleForm").serialize(),
+                dataType: "json",
+                success: function (data) {
+                    if(data.code==0) {
+                        alert("添加成功!!");
+                    } else {
+                        alert("添加失败!!");
+                    }
+                },
+                error: function () {
+                    alert("数据获取失败")
+                }
+            })
+        }
     })
 </script>
 </body>
