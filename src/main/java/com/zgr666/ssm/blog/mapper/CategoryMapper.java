@@ -33,4 +33,12 @@ public interface CategoryMapper {
      * @return 更新成功的个数
      */
     Integer updateCategory(Integer id,String new_name);
+
+
+    /**
+     *
+     * @param 类名
+     * @return 对应的id
+     */
+    Integer getIdByName(String CategoryName);
 }

@@ -35,4 +35,14 @@
         </set>
         where label_id = #{0}
     </update>
+
+    <select id="getIdByName" parameterType="String" resultType="java.lang.Integer">
+        select label_id
+        from
+        label
+        <where>
+            label_name=#{LableName}
+        </where>
+
+    </select>
 </mapper>

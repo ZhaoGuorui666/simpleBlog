@@ -32,4 +32,9 @@ public class CategoryServiceImpl implements CategoryService {
     public Integer updateCategory(Integer id,String new_name) {
         return categoryMapper.updateCategory(id,new_name);
     }
+
+    @Override
+    public Integer getIdByName(String CategoryName) {
+        return categoryMapper.getIdByName(CategoryName);
+    }
 }

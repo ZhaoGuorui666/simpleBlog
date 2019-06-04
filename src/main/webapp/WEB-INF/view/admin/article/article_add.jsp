@@ -66,8 +66,6 @@
     });
     $("#button").click(function () {
         var status = $('input:radio:checked').val();
-        // alert($("[name=test-editor-html-code]").val());
-        // alert($("[name=articleTitle]").val());
 
 
         if(status == '1'){
@@ -79,8 +77,8 @@
                 data: $("#articleForm").serialize(),
                 dataType: "json",
                 success: function (data) {
-                    if(data.code==0) {
-                        alert("添加成功!!");
+                    if(data.code==1) {
+                        alert("文章添加成功!!");
                     } else {
                         alert("添加失败!!");
                     }

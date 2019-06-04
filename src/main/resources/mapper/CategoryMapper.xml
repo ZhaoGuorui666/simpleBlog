@@ -35,4 +35,13 @@
         </set>
         where category_id = #{0}
     </update>
+
+    <select id="getIdByName" parameterType="String" resultType="java.lang.Integer">
+        select category_id
+        from
+        category
+        <where>
+            category_name=#{CategoryName}
+        </where>
+    </select>
 </mapper>

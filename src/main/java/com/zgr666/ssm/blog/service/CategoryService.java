@@ -12,4 +12,6 @@ public interface CategoryService {
     Integer addCategory(Category category);
 
     Integer updateCategory(Integer id,String new_name);
+
+    Integer getIdByName(String CategoryName);
 }

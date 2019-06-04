@@ -32,4 +32,9 @@ public class LabelServiceImpl implements LabelService {
     public Integer updateLabel(Integer id, String new_name) {
         return labelMapper.updateLabel(id,new_name);
     }
+
+    @Override
+    public Integer getIdByName(String LableName) {
+        return labelMapper.getIdByName(LableName);
+    }
 }

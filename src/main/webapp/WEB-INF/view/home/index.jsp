@@ -11,9 +11,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Document</title>
+    <title>博客主页</title>
     <link rel="stylesheet" type="text/css" href="/plugin/layui/css/layui.css">
+    <script src="/lib/layui/layui.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="/css/xadmin.css">
     <!--加载meta IE兼容文件-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -25,42 +27,30 @@
     <div class="menu-btn">
         <div class="menu"></div>
     </div>
-    <h1 class="logo" style="top: 30px;">
+    <h1 class="logo" style="">
         <a href="index.html">
-            <span>MYBLOG</span>
+            <span>HELLO,FRIEND!</span>
             <img src="/img/logo.png">
         </a>
     </h1>
     <div class="nav">
-        <a href="index.html" class="active">文章</a>
-        <a href="whisper.html">微语</a>
-        <a href="leacots.html">留言</a>
+        <a href="home" class="active">文章</a>
+        <a href="whisper.html">分类</a>
+        <a href="msgboard.html">标签</a>
         <a href="album.html">相册</a>
         <a href="about.html">关于</a>
-        <a href="about.html">关于</a>
     </div>
-    <ul class="layui-nav header-down-nav">
-        <li class="layui-nav-item"><a href="index.html" class="active">文章</a></li>
-        <li class="layui-nav-item"><a href="whisper.html">微语</a></li>
-        <li class="layui-nav-item"><a href="leacots.html">留言</a></li>
-        <li class="layui-nav-item"><a href="album.html">相册</a></li>
-        <li class="layui-nav-item"><a href="about.html">关于</a></li>
-        <li class="layui-nav-item"><a href="about.html">留言板</a></li>
-    </ul>
+
     <p class="welcome-text">
-        欢迎来到<span class="name">小明</span>的博客~
+        欢迎来到<span class="name">AllEN</span>的博客~
     </p>
 </div>
 
 <div class="banner">
     <div class="cont w1000">
         <div class="title">
-            <h3>MY<br />BLOG</h3>
-            <h4>well-balanced heart</h4>
-        </div>
-        <div class="amount">
-            <p><span class="text">访问量</span><span class="access">1000</span></p>
-            <p><span class="text">日志</span><span class="daily-record">1000</span></p>
+            <h3>HELLO<br /><br />MY FRIEND</h3>
+            <%--<h4>well-balanced heart</h4>--%>
         </div>
     </div>
 </div>
@@ -69,100 +59,80 @@
     <div class="cont w1000">
         <div class="title">
         <span class="layui-breadcrumb" lay-separator="|">
-          <a href="javascript:;" class="active">设计文章</a>
-          <a href="javascript:;">前端文章</a>
-          <a href="javascript:;">旅游杂记</a>
+          <a href="javascript:;" class="active">技术文章</a>
+          <a href="javascript:;">杂记</a>
         </span>
         </div>
         <div class="list-item">
-            <div class="item">
-                <div class="layui-fluid">
-                    <div class="layui-row">
-                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
-                            <div class="img"><img src="/img/sy_img1.jpg" alt=""></div>
-                        </div>
-                        <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
-                            <div class="item-cont">
-                                <h3>空间立体效果图，完美呈现最终效果<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
-                                <h5>设计文章</h5>
-                                <p>室内设计作为一门新兴的学科，尽管还只是近数十年的事，但是人们有意识地对自己生活、生产活动的室内进行安排布置，甚至美化装饰，赋予室内环境以所祈使的气氛，却早巳从人类文明伊始的时期就已存在</p>
-                                <a href="details.html" class="go-icon"></a>
+            <c:forEach items="${pageInfo.list}" var="c" varStatus="st">
+                <div class="item">
+                    <div class="layui-fluid">
+                        <div class="layui-row">
+                            <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
+                                <div class="img"><img src="/img/sy_img1.jpg" alt=""></div>
+                            </div>
+                            <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
+                                <div class="item-cont">
+                                    <h3>${c.articleTitle}<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
+                                    <h5>${c.articleCreateTime}</h5>
+                                    <p>${c.articleContent}</p>
+                                    <a href="details.html" class="go-icon"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="layui-fluid">
-                    <div class="layui-row">
-                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
-                            <div class="img"><img src="/img/sy_img2.jpg" alt=""></div>
-                        </div>
-                        <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
-                            <div class="item-cont">
-                                <h3>空间立体效果图，完美呈现最终效果<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
-                                <h5>设计文章</h5>
-                                <p>室内设计作为一门新兴的学科，尽管还只是近数十年的事，但是人们有意识地对自己生活、生产活动的室内进行安排布置，甚至美化装饰，赋予室内环境以所祈使的气氛，却早巳从人类文明伊始的时期就已存在</p>
-                                <a href="details.html" class="go-icon"></a>
-                            </div>
-                        </div>
-                    </div>
+            </c:forEach>
+        </div>
+        <div class="layui-card-body ">
+            <div class="page">
+                <div class="col-md-6">
+                    当前第 ${pageInfo.pageNum} 页.总共 ${pageInfo.pages} 页.一共 ${pageInfo.total} 条记录
                 </div>
-            </div>
-            <div class="item">
-                <div class="layui-fluid">
-                    <div class="layui-row">
-                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
-                            <div class="img"><img src="/img/sy_img3.jpg" alt=""></div>
-                        </div>
-                        <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
-                            <div class="item-cont">
-                                <h3>空间立体效果图，完美呈现最终效果<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
-                                <h5>设计文章</h5>
-                                <p>室内设计作为一门新兴的学科，尽管还只是近数十年的事，但是人们有意识地对自己生活、生产活动的室内进行安排布置，甚至美化装饰，赋予室内环境以所祈使的气氛，却早巳从人类文明伊始的时期就已存在</p>
-                                <a href="details.html" class="go-icon"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="layui-fluid">
-                    <div class="layui-row">
-                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
-                            <div class="img"><img src="/img/sy_img4.jpg" alt=""></div>
-                        </div>
-                        <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
-                            <div class="item-cont">
-                                <h3>空间立体效果图，完美呈现最终效果<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
-                                <h5>设计文章</h5>
-                                <p>室内设计作为一门新兴的学科，尽管还只是近数十年的事，但是人们有意识地对自己生活、生产活动的室内进行安排布置，甚至美化装饰，赋予室内环境以所祈使的气氛，却早巳从人类文明伊始的时期就已存在</p>
-                                <a href="details.html" class="go-icon"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="layui-fluid">
-                    <div class="layui-row">
-                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md5">
-                            <div class="img"><img src="/img/sy_img5.jpg" alt=""></div>
-                        </div>
-                        <div class="layui-col-xs12 layui-col-sm8 layui-col-md7">
-                            <div class="item-cont">
-                                <h3>空间立体效果图，完美呈现最终效果<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
-                                <h5>设计文章</h5>
-                                <p>室内设计作为一门新兴的学科，尽管还只是近数十年的事，但是人们有意识地对自己生活、生产活动的室内进行安排布置，甚至美化装饰，赋予室内环境以所祈使的气氛，却早巳从人类文明伊始的时期就已存在</p>
-                                <a href="details.html" class="go-icon"></a>
-                            </div>
-                        </div>
-                    </div>
+                <!--点击分页-->
+                <div class="col-md-6">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+
+                            <li><a href="${pageContext.request.contextPath}/home?pn=1">首页</a></li>
+
+                            <!--上一页-->
+                            <li>
+                                <c:if test="${pageInfo.hasPreviousPage}">
+                                    <a href="${pageContext.request.contextPath}/home?pn=${pageInfo.pageNum-1}" aria-label="Previous">
+                                        <span aria-hidden="true">«</span>
+                                    </a>
+                                </c:if>
+                            </li>
+
+                            <!--循环遍历连续显示的页面，若是当前页就高亮显示，并且没有链接-->
+                            <c:forEach items="${pageInfo.navigatepageNums}" var="page_num">
+                                <c:if test="${page_num == pageInfo.pageNum}">
+                                    <li class="active"><a href="#">${page_num}</a></li>
+                                </c:if>
+                                <c:if test="${page_num != pageInfo.pageNum}">
+                                    <li><a href="${pageContext.request.contextPath}/home?pn=${page_num}">${page_num}</a></li>
+                                </c:if>
+                            </c:forEach>
+
+                            <!--下一页-->
+                            <li>
+                                <c:if test="${pageInfo.hasNextPage}">
+                                    <a href="${pageContext.request.contextPath}/home?pn=${pageInfo.pageNum+1}"
+                                       aria-label="Next">
+                                        <span aria-hidden="true">»</span>
+                                    </a>
+                                </c:if>
+                            </li>
+
+                            <li><a href="${pageContext.request.contextPath}/home?pn=${pageInfo.pages}">尾页</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
-        <div id="demo" style="text-align: center;"></div>
     </div>
+
 </div>
 
 <div class="footer-wrap">

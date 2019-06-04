@@ -19,4 +19,20 @@
         #{ArticleViewCount},#{ArticleUpdateTime},#{ArticleCreateTime})
     </insert>
 
+    <select id="getIdByTitle" parameterType="String" resultType="java.lang.Integer">
+        select article_id
+        from
+        article
+        <where>
+            article_title = #{ArticleTitle}
+        </where>
+    </select>
+
+    <select id="getAllArticle" resultType="com.zgr666.ssm.blog.entity.Article">
+        select *
+        from
+        article
+        order by article_id desc
+    </select>
+
 </mapper>

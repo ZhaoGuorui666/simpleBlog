@@ -7,24 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d953f6-e54b-4040-9bba-958b6fbee3b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/ArticleCategoryRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/ArticleLableRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleCategoryRefMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleLableRefMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleCategoryRefService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleLableRefService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleCategoryRefServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleLabelRefServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ArticleCategoryRefMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ArticleLabelRefMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/home/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/home/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/LabelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/LabelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/LabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/LabelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/LabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/LabelServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/LabelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LabelMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,22 +40,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleLabelRefServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+            <state relative-caret-position="242">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/category/category_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="50" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/home/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding>
+                <element signature="e#1031#1040#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/CategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
+                <element signature="method#category_del#0;class#CategoryController#0" />
+                <element signature="method#category_add#1;class#CategoryController#0" />
+                <element signature="method#category_update#1;class#CategoryController#0" />
               </folding>
             </state>
           </provider>
@@ -99,10 +137,15 @@
       <find>xe631</find>
       <find>System.o</find>
       <find>pagehelper</find>
+      <find>首页</find>
+      <find>demo</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\18235\Desktop\blog\simpleBlog\src\main\java\com\zgr666\ssm\blog\controller\home</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,28 +153,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/servlet/CheckCodeFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/servlet/LoginCheckCodeServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LoginController.java" />
         <option value="$PROJECT_DIR$/../../idea/layuiSimpleBlog-v1.0.0/res/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/home/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/msgboard.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Category.java" />
         <option value="$PROJECT_DIR$/../素材/闭眼登陆界面/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Label.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/category/category_add.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/LabelService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/LabelMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/LabelServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/LabelMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/label/label_add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/category/category_update.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/label/label_update.jsp" />
@@ -143,13 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/label/label_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Article.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/ArticleController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/../../index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/ArticleCategoryRef.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/ArticleLableRef.java" />
@@ -161,6 +185,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleCategoryRefServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleLableRefService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleLabelRefServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/util/PatternUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/LabelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/LabelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LabelMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/LabelMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/ArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/home/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/index.jsp" />
       </list>
     </option>
   </component>
@@ -185,7 +228,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="280" />
     <option name="y" value="75" />
     <option name="width" value="1750" />
@@ -202,7 +245,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,30 +343,6 @@
               <item name="zgr666" type="462c0819:PsiDirectoryNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simpleBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simpleBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zgr666" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simpleBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simpleBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zgr666" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,15 +394,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simpleBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simpleBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -429,12 +438,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559525578413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559617366765" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -445,22 +455,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\css" />
-      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\img" />
-      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\js" />
-      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\WEB-INF\view\admin" />
-      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zgr666.ssm.blog.controller.admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\js" />
       <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\img" />
       <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource" />
       <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\WEB-INF\view\admin\label" />
       <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zgr666.ssm.blog.controller.admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\css" />
+      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\img" />
+      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\resource\js" />
+      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\webapp\WEB-INF\view\admin" />
+      <recent name="C:\Users\18235\Desktop\blog\simpleBlog\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -477,7 +487,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/category_list.html" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/home" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
@@ -609,16 +619,19 @@
       <workItem from="1559437609272" duration="1024000" />
       <workItem from="1559474951716" duration="5504000" />
       <workItem from="1559517111208" duration="7168000" />
+      <workItem from="1559606513972" duration="3614000" />
+      <workItem from="1559613419360" duration="4009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99583000" />
+    <option name="totallyTimeSpent" value="107206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8918919" visible="true" weight="0.27949062" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8918919" visible="true" weight="0.28753352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -628,7 +641,7 @@
       <window_info id="Web" order="7" sideWeight="0.10810811" side_tool="true" weight="0.31434315" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.15463917" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.20765832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,8 +650,8 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.45360824" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033512" side_tool="true" weight="0.47275406" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298969" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.47717232" />
@@ -659,80 +672,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/category/category_update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LabelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <element signature="method#category_del#0;class#LabelController#0" />
-            <element signature="method#category_add#1;class#LabelController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/LabelMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LabelMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="31" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="2" selection-end-line="229" selection-end-column="17" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven/repository/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/com/github/pagehelper/PageInfo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -758,20 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/category/category_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3624">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="193" column="8" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -833,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -868,45 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -914,74 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#779#795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="93" column="55" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#category_del#0;class#CategoryController#0" />
-            <element signature="method#category_add#1;class#CategoryController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="28" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/ArticleCategoryRef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1052,20 +867,223 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleLabelRefServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="453">
           <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
             <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+          <folding>
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/LabelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/LabelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LabelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/LabelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/util/PatternUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/article/article_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/admin/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#category_del#0;class#CategoryController#0" />
+            <element signature="method#category_add#1;class#CategoryController#0" />
+            <element signature="method#category_update#1;class#CategoryController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zgr666/ssm/blog/controller/home/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#1031#1040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/category/category_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

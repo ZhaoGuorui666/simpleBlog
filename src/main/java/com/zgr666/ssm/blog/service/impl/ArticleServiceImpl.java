@@ -6,6 +6,8 @@ import com.zgr666.ssm.blog.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ArticleServiceImpl implements ArticleService {
     @Autowired
@@ -14,5 +16,15 @@ public class ArticleServiceImpl implements ArticleService {
     @Override
     public Integer insertArticle(Article article) {
         return articleMapper.insertArticle(article);
+    }
+
+    @Override
+    public Integer getIdByTitle(String ArticleTitle) {
+        return articleMapper.getIdByTitle(ArticleTitle);
+    }
+
+    @Override
+    public List<Article> getAllArticle() {
+        return articleMapper.getAllArticle();
     }
 }

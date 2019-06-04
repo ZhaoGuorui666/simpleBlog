@@ -80,3 +80,7 @@
 
 * 完善了ArticleCategoryRef和ArticleLabelRef这两个类
 * 完善了添加文章时,可以添加草稿,和发布
+
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.6.4
+
+* 前端显示文章,加号分页
