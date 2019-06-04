@@ -34,9 +34,9 @@
 <body>
 <form action="#" id="articleForm">
     <div class="col-xs-4">
-        <input type="text" class="form-control" placeholder="输入文章标题" style="margin: 10px">
-        <input type="text" class="form-control" placeholder="输入类别" style="margin: 10px">
-        <input type="text" class="form-control" placeholder="输入标签,多个标签以英文逗号分隔, 例: java,mysql  " style="margin: 10px">
+        <input type="text" class="form-control" placeholder="输入文章标题" style="margin: 10px" name="articleTitle">
+        <input type="text" class="form-control" placeholder="输入类别" style="margin: 10px" name="articleCategory">
+        <input type="text" class="form-control" placeholder="输入标签,多个标签以英文逗号分隔, 例: java,mysql  " name="articleLabel" style="margin: 10px">
     </div>
     <div id="test-editor" class="test-editor">
         <%--markdown窗口--%>
@@ -66,14 +66,11 @@
     });
     $("#button").click(function () {
         var status = $('input:radio:checked').val();
-        alert(test);
-        var text = $('.window_html').val();
-        alert(text);
-        var text1 = $('.editormd-html-textarea').val();
-        alert(text1);
+        // alert($("[name=test-editor-html-code]").val());
+        // alert($("[name=articleTitle]").val());
+
 
         if(status == '1'){
-            alert(1111);
             $.ajax({
                 async: false,//同步，待请求完毕后再执行后面的代码
                 type: "POST",

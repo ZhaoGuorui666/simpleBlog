@@ -10,7 +10,7 @@
         <result column="article_create_time" property="ArticleCreateTime" jdbcType="TIMESTAMP"/>
     </resultMap>
 
-    <insert id="addCategory" parameterType="com.zgr666.ssm.blog.entity.Article">
+    <insert id="insertArticle" parameterType="com.zgr666.ssm.blog.entity.Article">
         insert into
         article
         (article_id,article_title,article_content,article_view_count,article_update_time,article_create_time)

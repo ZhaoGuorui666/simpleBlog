@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zgr666.ssm.blog.mapper.ArticleLableRefMapper">
+    <resultMap id="BaseResultMap" type="com.zgr666.ssm.blog.entity.ArticleLableRef">
+        <result column="article_id" property="articleId" jdbcType="INTEGER"/>
+        <result column="label_id" property="labelId" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.zgr666.ssm.blog.entity.ArticleLableRef">
+        insert into
+        article_label_ref
+        (article_id,label_id)
+        values
+        (#{articleId},#{labelId})
+    </insert>
+
+    <delete id="deleteByArticleId" parameterType="java.lang.Integer">
+        delete from
+        article_label_ref
+        where article_id = #{articleId}
+    </delete>
+
+    <delete id="deleteByLabelId" parameterType="java.lang.Integer">
+        delete from
+        article_label_ref
+        where label_id = #{labelId}
+    </delete>
+
+    <select id="findArticleId" resultType="java.lang.Integer">
+        select article_id
+        from
+        article_label_ref
+        where
+        label_id = #{labelId}
+    </select>
+
+    <select id="findLabelId" resultType="java.lang.Integer">
+        select label_id
+        from
+        article_label_ref
+        where
+        article_id = #{articleId}
+    </select>
+
+</mapper>

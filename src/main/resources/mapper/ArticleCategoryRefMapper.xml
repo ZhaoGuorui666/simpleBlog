@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zgr666.ssm.blog.mapper.ArticleCategoryRefMapper">
+    <resultMap id="BaseResultMap" type="com.zgr666.ssm.blog.entity.ArticleCategoryRef">
+        <result column="article_id" property="articleId" jdbcType="INTEGER"/>
+        <result column="category_id" property="categoryId" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.zgr666.ssm.blog.entity.ArticleCategoryRef">
+        insert into
+        article_category_ref
+        (article_id,category_id)
+        values
+        (#{articleId},#{categoryId})
+    </insert>
+
+    <delete id="deleteByArticleId" parameterType="java.lang.Integer">
+        delete from
+        article_category_ref
+        where article_id = #{articleId}
+    </delete>
+
+    <delete id="deleteByCategoryId" parameterType="java.lang.Integer">
+        delete from
+        article_category_ref
+        where category_id = #{categoryId}
+    </delete>
+
+    <select id="findArticleId" resultType="com.zgr666.ssm.blog.entity.ArticleCategoryRef">
+        select article_id
+        from
+        article_category_ref
+        where
+        category_id = #{categoryId}
+    </select>
+
+    <select id="findCategoryId" resultType="com.zgr666.ssm.blog.entity.ArticleCategoryRef">
+        select category_id
+        from
+        article_category_ref
+        where
+        article_id = #{articleId}
+    </select>
+
+</mapper>
