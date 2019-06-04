@@ -75,8 +75,8 @@
                                 <div class="item-cont">
                                     <h3>${c.articleTitle}<button class="layui-btn layui-btn-danger new-icon">new</button></h3>
                                     <h5>${c.articleCreateTime}</h5>
-                                    <p>${c.articleContent}</p>
-                                    <a href="details.html" class="go-icon"></a>
+                                    <p>${c.articleContentSum}</p>
+                                    <a href="/article/${c.articleId}" class="go-icon"></a>
                                 </div>
                             </div>
                         </div>

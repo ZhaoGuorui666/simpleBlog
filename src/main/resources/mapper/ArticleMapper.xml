@@ -35,4 +35,13 @@
         order by article_id desc
     </select>
 
+    <select id="getArticleById" parameterType="java.lang.Integer" resultType="com.zgr666.ssm.blog.entity.Article">
+        select *
+        from
+        article
+        <where>
+            article_id=#{id}
+        </where>
+    </select>
+
 </mapper>

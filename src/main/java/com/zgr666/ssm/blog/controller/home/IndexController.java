@@ -24,7 +24,16 @@ public class IndexController {
         ModelAndView mav = new ModelAndView();
         List<Article> ls = articleService.getAllArticle();
 
-        System.out.println(ls);
+        //设置首页部分显示
+        for(Article article:ls){
+            String articleContent = article.getArticleContent();
+            Integer contentSize = 200;
+            if(articleContent.length() > contentSize){
+                article.setArticleContentSum(articleContent.substring(0,contentSize));
+            }else {
+                article.setArticleContentSum(articleContent);
+            }
+        }
 
         PageInfo<Article> pageInfo = new PageInfo<Article>(ls,5);
         mav.addObject("pageInfo",pageInfo);

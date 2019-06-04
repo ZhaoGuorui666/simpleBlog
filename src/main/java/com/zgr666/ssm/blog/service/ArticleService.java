@@ -8,4 +8,5 @@ public interface ArticleService {
     Integer insertArticle(Article article);
     Integer getIdByTitle(String ArticleTitle);
     List<Article> getAllArticle();
+    Article getArticleById(Integer id);
 }

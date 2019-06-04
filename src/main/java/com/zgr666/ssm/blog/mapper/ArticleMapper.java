@@ -12,4 +12,6 @@ public interface ArticleMapper {
     Integer getIdByTitle(String ArticleTitle);
 
     List<Article> getAllArticle();
+
+    Article getArticleById(Integer id);
 }
