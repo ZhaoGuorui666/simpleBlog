@@ -2,6 +2,8 @@ package com.zgr666.ssm.blog.service;
 
 import com.zgr666.ssm.blog.entity.ArticleLableRef;
 
+import java.util.List;
+
 public interface ArticleLableRefService {
     /**
      * 添加映射关系
@@ -24,5 +26,5 @@ public interface ArticleLableRefService {
      * @return
      */
     Integer findArticleId(Integer labelId);
-    Integer findLabelId(Integer articleId);
+    List<Integer> findLabelId(Integer articleId);
 }

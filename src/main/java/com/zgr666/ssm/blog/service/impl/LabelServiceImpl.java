@@ -37,4 +37,9 @@ public class LabelServiceImpl implements LabelService {
     public Integer getIdByName(String LableName) {
         return labelMapper.getIdByName(LableName);
     }
+
+    @Override
+    public String getNameById(Integer id) {
+        return labelMapper.getNameById(id);
+    }
 }

@@ -9,4 +9,5 @@ public interface ArticleService {
     Integer getIdByTitle(String ArticleTitle);
     List<Article> getAllArticle();
     Article getArticleById(Integer id);
+    Integer delArticleById(Integer id);
 }

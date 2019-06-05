@@ -9,6 +9,7 @@ public class Article {
     private Integer ArticleId;
     private String ArticleTitle;
     private String ArticleContent;
+    private String ArticleContentSource;
     private String ArticleContentSum;
     private Integer ArticleViewCount;
     private Date ArticleUpdateTime;

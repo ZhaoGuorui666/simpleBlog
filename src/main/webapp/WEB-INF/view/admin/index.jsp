@@ -89,7 +89,7 @@
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('文章列表','article_add.html')">
+                        <a onclick="xadmin.add_tab('文章列表','article_list.html')">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>文章列表</cite></a>
                     </li>
@@ -138,9 +138,14 @@
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('草稿列表','city.html')">
+                        <a onclick="xadmin.add_tab('草稿列表','draft_list.html')">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>草稿列表</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('草稿编辑','draft_edit.html')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>草稿编辑</cite></a>
                     </li>
                 </ul>
             </li>
@@ -202,7 +207,7 @@
         </div>
         <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
-                <iframe src='article_add.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+                <iframe src='article_list.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
             </div>
         </div>
         <div id="tab_show"></div>

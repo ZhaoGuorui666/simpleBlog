@@ -45,4 +45,13 @@
         </where>
 
     </select>
+
+    <select id="getNameById" parameterType="java.lang.Integer" resultType="String">
+        select label_name
+        from
+        label
+        <where>
+            label_id = #{id}
+        </where>
+    </select>
 </mapper>

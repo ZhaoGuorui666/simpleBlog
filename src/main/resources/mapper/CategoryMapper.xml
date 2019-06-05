@@ -44,4 +44,13 @@
             category_name=#{CategoryName}
         </where>
     </select>
+
+    <select id="getNameById" parameterType="java.lang.Integer" resultType="String">
+        select category_name
+        from
+        category
+        <where>
+            category_id = #{id}
+        </where>
+    </select>
 </mapper>

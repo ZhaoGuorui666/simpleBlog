@@ -14,4 +14,6 @@ public interface ArticleMapper {
     List<Article> getAllArticle();
 
     Article getArticleById(Integer id);
+
+    Integer delArticleById(Integer id);
 }

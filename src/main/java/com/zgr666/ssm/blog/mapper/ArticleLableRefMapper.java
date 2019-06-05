@@ -3,6 +3,8 @@ package com.zgr666.ssm.blog.mapper;
 import com.zgr666.ssm.blog.entity.ArticleLableRef;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 @Mapper
 public interface ArticleLableRefMapper {
     /**
@@ -26,5 +28,5 @@ public interface ArticleLableRefMapper {
      * @return
      */
     Integer findArticleId(Integer labelId);
-    Integer findLabelId(Integer articleId);
+    List<Integer> findLabelId(Integer articleId);
 }

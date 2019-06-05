@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zgr666.ssm.blog.mapper.DraftMapper">
+    <resultMap id="BaseResultMap" type="com.zgr666.ssm.blog.entity.Draft">
+        <result column="draft_id" property="DraftId" jdbcType="INTEGER"/>
+        <result column="draft_title" property="DraftTitle" jdbcType="VARCHAR"/>
+        <result column="draft_content" property="DraftContent" jdbcType="LONGVARCHAR"/>
+        <result column="draft_content_source" property="DraftContentSource" jdbcType="LONGVARCHAR"/>
+        <result column="draft_view_count" property="DraftViewCount" jdbcType="INTEGER"/>
+        <result column="draft_update_time" property="DraftUpdateTime" jdbcType="TIMESTAMP"/>
+        <result column="draft_create_time" property="DraftCreateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <insert id="insertDraft" parameterType="com.zgr666.ssm.blog.entity.Draft">
+        insert into
+        draft
+        (draft_id,draft_title,draft_content,draft_view_count,draft_update_time,draft_create_time,draft_content_source)
+        values
+        (#{DraftId},#{DraftTitle},#{DraftContent},
+        #{DraftViewCount},#{DraftUpdateTime},#{DraftCreateTime},#{DraftContentSource})
+    </insert>
+
+    <select id="getIdByTitle" parameterType="String" resultType="java.lang.Integer">
+        select draft_id
+        from
+        draft
+        <where>
+            draft_title = #{DraftTitle}
+        </where>
+    </select>
+
+    <select id="getAllDraft" resultType="com.zgr666.ssm.blog.entity.Draft">
+        select *
+        from
+        draft
+        order by draft_id desc
+    </select>
+
+    <select id="getDraftById" parameterType="java.lang.Integer" resultType="com.zgr666.ssm.blog.entity.Draft">
+        select *
+        from
+        draft
+        <where>
+            draft_id=#{id}
+        </where>
+    </select>
+
+    <delete id="delDraftById" parameterType="java.lang.Integer">
+        delete from
+        draft
+        <where>
+            draft_id=#{id}
+        </where>
+    </delete>
+
+</mapper>

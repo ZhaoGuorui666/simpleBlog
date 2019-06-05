@@ -5,6 +5,7 @@
         <result column="article_id" property="ArticleId" jdbcType="INTEGER"/>
         <result column="article_title" property="ArticleTitle" jdbcType="VARCHAR"/>
         <result column="article_content" property="ArticleContent" jdbcType="LONGVARCHAR"/>
+        <result column="article_content_source" property="ArticleContentSource" jdbcType="LONGVARCHAR"/>
         <result column="article_view_count" property="ArticleViewCount" jdbcType="INTEGER"/>
         <result column="article_update_time" property="ArticleUpdateTime" jdbcType="TIMESTAMP"/>
         <result column="article_create_time" property="ArticleCreateTime" jdbcType="TIMESTAMP"/>
@@ -13,10 +14,10 @@
     <insert id="insertArticle" parameterType="com.zgr666.ssm.blog.entity.Article">
         insert into
         article
-        (article_id,article_title,article_content,article_view_count,article_update_time,article_create_time)
+        (article_id,article_title,article_content,article_view_count,article_update_time,article_create_time,article_content_source)
         values
         (#{ArticleId},#{ArticleTitle},#{ArticleContent},
-        #{ArticleViewCount},#{ArticleUpdateTime},#{ArticleCreateTime})
+        #{ArticleViewCount},#{ArticleUpdateTime},#{ArticleCreateTime},#{ArticleContentSource})
     </insert>
 
     <select id="getIdByTitle" parameterType="String" resultType="java.lang.Integer">
@@ -43,5 +44,13 @@
             article_id=#{id}
         </where>
     </select>
+
+    <delete id="delArticleById" parameterType="java.lang.Integer">
+        delete from
+        article
+        <where>
+            article_id=#{id}
+        </where>
+    </delete>
 
 </mapper>

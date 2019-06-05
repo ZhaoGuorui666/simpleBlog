@@ -6,6 +6,8 @@ import com.zgr666.ssm.blog.service.ArticleLableRefService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ArticleLabelRefServiceImpl implements ArticleLableRefService {
     @Autowired
@@ -33,7 +35,7 @@ public class ArticleLabelRefServiceImpl implements ArticleLableRefService {
     }
 
     @Override
-    public Integer findLabelId(Integer articleId) {
+    public List<Integer> findLabelId(Integer articleId) {
         return articleLableRefMapper.findLabelId(articleId);
     }
 }

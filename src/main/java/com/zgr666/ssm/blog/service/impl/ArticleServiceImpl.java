@@ -32,4 +32,11 @@ public class ArticleServiceImpl implements ArticleService {
     public Article getArticleById(Integer id) {
         return articleMapper.getArticleById(id);
     }
+
+    @Override
+    public Integer delArticleById(Integer id) {
+        return articleMapper.delArticleById(id);
+    }
+
+
 }

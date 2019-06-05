@@ -41,4 +41,6 @@ public interface CategoryMapper {
      * @return 对应的id
      */
     Integer getIdByName(String CategoryName);
+
+    String getNameById(Integer id);
 }

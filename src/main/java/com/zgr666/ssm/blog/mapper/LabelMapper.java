@@ -16,4 +16,6 @@ public interface LabelMapper {
     Integer updateLabel(Integer id,String new_name);
 
     Integer getIdByName(String LableName);
+
+    String getNameById(Integer id);
 }

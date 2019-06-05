@@ -86,3 +86,10 @@
 * 前端显示文章,加号分页
 * 点击按钮进入查看文章的详细内容,(在两个不同的包下面也不要设置两个相同名字的Controller,要不会报错.)
 * 更改logo,很丑,哈哈哈
+
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.6.5
+
+* 草稿页面,CURD
+
+#### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.6.6
+

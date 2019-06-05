@@ -36,11 +36,11 @@
     </script>
 </head>
 <body>
-<form action="#" id="articleForm" method="post">
+<form action="#" id="articleForm" enctype="multipart/form-data" method="post">
     <div class="col-xs-4">
-        <input type="text" class="form-control" placeholder="输入文章标题" style="margin: 10px" name="articleTitle">
-        <input type="text" class="form-control" placeholder="输入类别" style="margin: 10px" name="articleCategory">
-        <input type="text" class="form-control" placeholder="输入标签,多个标签以英文逗号分隔, 例: java,mysql  " name="articleLabel" style="margin: 10px">
+        <input type="text" class="form-control" placeholder="输入文章标题" style="margin: 10px" name="articleTitle" value="${draft.draftTitle}">
+        <input type="text" class="form-control" placeholder="输入类别" style="margin: 10px" name="articleCategory" value="${CategoryName}">
+        <input type="text" class="form-control" placeholder="输入标签,多个标签以英文逗号分隔, 例: java,mysql  " name="articleLabel" style="margin: 10px" value="${LabelIdName}">
     </div>
     <div class="col-xs-4">
         <div class="register-box-con2-box clearfix mar-bottom20">
@@ -57,9 +57,9 @@
     </div>
     <div id="test-editor" class="test-editor">
         <%--markdown窗口--%>
-        <textarea id="window_markdown" class="window_markdown" style="display:none;" name="test-markdown-code">### 关于 Editor.md
-**Editor.md** 是一款开源的、可嵌入的 Markdown 在线编辑器（组件），基于 CodeMirror、jQuery 和 Marked 构建。
-    </textarea>
+        <textarea id="window_markdown" class="window_markdown" style="display:none;">
+            ${draft.draftContentSource}
+        </textarea>
 
         <%--html窗口 class = editormd-html-textarea --%>
         <textarea id="window_html" class="window_html" style="display:none;"></textarea>

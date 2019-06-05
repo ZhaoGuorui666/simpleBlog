@@ -38,6 +38,7 @@
         <a href="whisper.html">分类</a>
         <a href="msgboard.html">标签</a>
         <a href="album.html">相册</a>
+        <a href="msgboard.html">留言</a>
         <a href="about.html">关于</a>
     </div>
 
