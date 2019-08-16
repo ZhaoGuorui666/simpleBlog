@@ -2,7 +2,7 @@
 
 
 
-大二期末大作业,利用ssm框架做的个人博客
+大二期末大作业,利用ssm框架做的个人博客(未完)
 
 #### ![](<https://github.com/ZhaoGuorui666/simpleBlog/blob/master/README_IMG/20190524100737.png>)2019.05.17
 
